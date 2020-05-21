@@ -1,0 +1,23 @@
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 3px 3px 5px black;
+}
+
+p {
+    color: yellow
+}
+
+.myclass {
+    color: coral;
+}
+
+#myId {
+    background-color: violet;
+    color:aqua;
+    border: 4px solid white
+}

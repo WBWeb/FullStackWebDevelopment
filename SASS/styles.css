@@ -1,0 +1,14 @@
+body {
+  background-color: cadetblue; }
+
+h1 {
+  color: white; }
+
+.circle {
+  background-color: darkred;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #333; }
+
+/*# sourceMappingURL=styles.css.map */

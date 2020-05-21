@@ -1,0 +1,69 @@
+body {
+  background-color: #e6f2ff; }
+
+h1 {
+  text-align: center;
+  padding-top: 20px; }
+
+section {
+  background-color: #cc66ff;
+  color: #333;
+  width: 782px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: -5; }
+
+.thumb1 {
+  height: 120px;
+  width: 120px;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  border-radius: 10%;
+  background-color: #333;
+  color: #e6f2ff;
+  margin: 0 150px -90px; }
+
+.thumb2 {
+  height: 80px;
+  width: 80px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #cc66ff;
+  color: #cc66ff;
+  margin: -50px 1060px; }
+
+.btn-1 {
+  padding: 15px 20px;
+  border-radius: 7px;
+  background-color: #6600cc;
+  color: white;
+  border-width: 0;
+  border-style: none;
+  cursor: pointer;
+  display: block;
+  margin: auto; }
+  .btn-1:hover {
+    background-color: #9933ff; }
+
+.btn-2 {
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  border-width: 0;
+  border-style: none;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  font-size: 2rem; }
+  .btn-2:hover {
+    background-color: #9933ff; }
+  .btn-2:hover {
+    background-color: #4d0099; }
+
+/*# sourceMappingURL=main.css.map */

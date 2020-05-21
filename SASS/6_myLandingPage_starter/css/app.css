@@ -1,0 +1,243 @@
+.center-block, .b-video-img, .gear-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  line-height: 1.25; }
+
+.about-title {
+  font-size: 2rem;
+  margin: 0 0 30px;
+  color: #212630; }
+
+.about-text {
+  margin: 0 0 50px;
+  color: #363e4e;
+  letter-spacing: -0.025em; }
+
+.home-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: -50px 0 20px;
+  color: #CD4B3D; }
+
+.b-text {
+  font-size: 1.25rem;
+  margin: 0 0 20px;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  padding-right: 25px;
+  line-height: 1.7; }
+
+.b-card {
+  margin-left: 50px;
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #212630;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+  .b-card .b-title {
+    font-size: 27px;
+    font-weight: 700;
+    color: #FFFCFC;
+    margin: 0 0 15px; }
+    .b-card .b-title .b-video {
+      margin: 0 auto 15px; }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.banner-container {
+  padding: 40px 0;
+  background-color: #212630;
+  color: #fff; }
+
+.splitter-container {
+  padding: 40px 0 40px;
+  background-color: #FFFCFC;
+  text-align: center; }
+
+.about-container {
+  background-color: #f6f5f5;
+  padding: 70px 0;
+  min-height: 540px; }
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.row::after {
+  display: table;
+  clear: both; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+#page-footer {
+  clear: both;
+  background-color: #212630;
+  padding: 25px 0 40px;
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+
+.footer-container {
+  padding: 0 10%; }
+  .footer-container .lego-footer {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #FFFCFC; }
+    .footer-container .lego-footer .footer-wrapper {
+      display: inline-block;
+      padding: 20px 0;
+      flex-wrap: wrap;
+      cursor: pointer; }
+
+.footer-link {
+  margin-right: 36px;
+  color: #FFFCFC;
+  text-decoration: none; }
+  .footer-link:hover {
+    color: #CD4B3D; }
+
+.img-list {
+  margin: 0 -20px -40px;
+  padding: 0; }
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  font-size: 1rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  transition: all, 0.2s ease-in-out;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px; }
+
+.buy-btn-lg {
+  padding: 12px 35px;
+  font-size: 1.25rem;
+  border-radius: 30px;
+  width: 100%; }
+
+.buy-btn-md {
+  padding: 18px 40px;
+  font-size: 1rem;
+  border-radius: 30px; }
+
+.btn-dark {
+  color: #f6f5f5;
+  background-color: #7a88a3;
+  border-color: #212630; }
+  .btn-dark:hover {
+    color: #f6f5f5;
+    background-color: #5f6e8b;
+    border-color: #0c0e12; }
+
+.btn-primary {
+  color: #f6f5f5;
+  background-color: #CD4B3D;
+  border-color: #CD4B3D; }
+  .btn-primary:hover {
+    color: #f6f5f5;
+    background-color: #ab382c;
+    border-color: #ab382c; }
+
+.btn-third {
+  color: #f6f5f5;
+  background-color: #CD4B3C;
+  border-color: #CD4B3C; }
+  .btn-third:hover {
+    color: #f6f5f5;
+    background-color: #aa392c;
+    border-color: #aa392c; }
+
+.b-video-img {
+  width: 100%;
+  padding: 30px 0 40px; }
+
+.img-item {
+  display: inline-block;
+  margin: 0 30px 40px;
+  vertical-align: middle; }
+
+.nav-header {
+  padding: 0 0 10px;
+  background-color: white; }
+  .nav-header .container {
+    padding: 10px 15px 0;
+    margin-right: auto;
+    margin-left: auto; }
+
+.nav-menu {
+  float: right;
+  margin: 5px 0 0; }
+  .nav-menu .nav-menu-list {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .nav-menu .nav-menu-list .nav-item {
+      display: inline-block;
+      margin: 0;
+      vertical-align: top; }
+      .nav-menu .nav-menu-list .nav-item .nav-a {
+        display: block;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #212630;
+        border: 1px solid transparent;
+        text-transform: uppercase; }
+        .nav-menu .nav-menu-list .nav-item .nav-a:hover {
+          text-color: red; }
+
+/*# sourceMappingURL=app.css.map */

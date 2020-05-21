@@ -1,0 +1,16 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "This is the first API ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ananta Kr Roy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

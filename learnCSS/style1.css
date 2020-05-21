@@ -1,0 +1,43 @@
+
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 2rem;
+    font-family: 'Baloo+Bhaijaan';
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 2rem;
+    font-family: 'Josefin+Sans';
+}
+
+/*all the children are colored using descendants*/
+ul li {
+    color: blueviolet;
+}
+
+/*using child selectors to color the css only one level deep*/
+ul > li {
+    color: brown;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: yellowgreen;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    
+}
+
+.formatting {
+    font-size: 25px;
+    line-height: 2em;
+    color: darkblue;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Percentage calculator</title>
+</head>
+<body>
+    <div>
+        <h2>Percentage calculator</h2>
+        <p>Choose your calculator</p>
+        <select id="calcSelect">
+            <option>What is Y% of X</option> 
+            <option>X is Y% of what</option>
+            <option>What % of X is Y</option>
+            <option>X% of what is Y</option>
+            <option>Y% of X is what</option>
+        
+        </select>
+        
+        <form id="calcForm">
+            <p>Enter X</p><input type="text" id="input1">
+            <p>Enter Y</p><input type="text" id="input2">
+            <input type="submit" value="Calculate"><br><br><br>
+            <h3 id="calcResult"></h3>
+        </form>
+        
+    </div>
+    <script src="calc.js" type="text/javascript"></script>
+</body>

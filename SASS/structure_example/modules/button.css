@@ -1,0 +1,13 @@
+/* line 1, /structure_example/modules/button.sass */
+.btn-large {
+  padding: 30px 40px;
+  background-color: green;
+  color: white; }
+
+/* line 6, /structure_example/modules/button.sass */
+.btn-sm {
+  padding: 10px 15px;
+  background-color: teal;
+  color: black; }
+
+/*# sourceMappingURL=button.css.map */

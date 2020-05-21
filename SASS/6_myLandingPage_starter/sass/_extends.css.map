@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "file": "_extends.css",
+  "sources": [
+    "_extends.sass"
+  ],
+  "mappings": ";AAAA,AAAA,aAAa,CAAC;EACV,OAAO,EAAa,KAAM;EAC1B,WAAW,EAAS,IAAK;EACzB,YAAY,EAAQ,IAAK,GAAG",
+  "names": []
+}
